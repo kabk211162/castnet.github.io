@@ -51,7 +51,6 @@ section{
 }
 .fp_div_d > h2{
     font-size: 1.875em;
-    margin-left: 0.5em;
 }
 .fp_div_d > a{
     font-size: 1.125em;
@@ -61,6 +60,7 @@ section{
     margin-top: 12px;
 }
 .fp_div_d > img{
+    margin-bottom: 1em;
     width: 100%;
 }
 .fp_div_t_img{
