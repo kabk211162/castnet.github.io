@@ -1,17 +1,18 @@
 *{
     font-family: 'Noto Sans TC', sans-serif;
     color: #5b5751;
+    /* border-style: solid;
+    border-width: 1px; */
 }
 body{
     background-color: #F5F5F5;
     width: 92em;
     margin: auto;
-    z-index: 1;
 }
 footer{
     background-color: #5b5751;
     z-index: 2;
-    width: 120%;
+    width: 100%;
     position: absolute;
     margin-top: 16em;
     left: 0;
@@ -125,6 +126,7 @@ a{
     background-image: -moz-linear-gradient(rgba(58, 171, 151) 0%, #F5F5F5 18em);
     background-image: -webkit-linear-gradient(rgba(58, 171, 151) 0%, #F5F5F5 18em);
     background-image: -o-linear-gradient(rgba(58, 171, 151) 0%, #F5F5F5 18em);
+    background-image: -ms-linear-gradient(rgba(58, 171, 151) 0%, #F5F5F5 18em);
     z-index: 2;
 }
 #fp_logo{
