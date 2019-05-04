@@ -188,6 +188,9 @@ a{
     left: 89%;
     top:15%;
 }
+#fp_i_t03{
+    display: none;
+}
 #fp_span_t03{
     font-size: 1.25em;
     position: fixed;
