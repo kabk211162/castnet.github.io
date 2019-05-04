@@ -23,7 +23,8 @@
         display: none;
     }
     #fp_div01{
-        display: none;
+        left:85%;
+        top: 70%;
     }
     #fp_i_t01, #fp_span_t01, #fp_img_header, #fp_span_t02, #fp_i_t02, #fp_span_t03{
         display: none;
