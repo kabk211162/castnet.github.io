@@ -82,6 +82,12 @@ section{
     border-left-width: 2px;
     border-left-color: #3AAB97;
     font-weight: lighter;
+    color: #5b5751;
+    text-decoration: none;
+}
+.fp_a_report:hover,.fp_a_report:visited{
+    color:#5b5751;
+    text-decoration: none;
 }
 .fp_div_t{
     display: inline-block;
