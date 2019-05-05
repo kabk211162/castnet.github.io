@@ -230,7 +230,7 @@ header div{
     height: 3em;
     width: 3em;
     border: solid 1px #5b5751;
-    z-index: 5;
+    z-index: 999;
     background-color: #F5F5F5;
     position: fixed;
     left: 95%;
