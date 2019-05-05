@@ -231,6 +231,7 @@ header div{
     width: 3em;
     border: solid 1px #5b5751;
     z-index: 5;
+    background-color: #F5F5F5;
     position: fixed;
     left: 95%;
     top: 90%;
