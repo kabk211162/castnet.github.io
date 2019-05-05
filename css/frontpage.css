@@ -2,6 +2,9 @@ section{
     position: relative;
     top: 15.6em;
 }
+footer{
+    margin-top: 16em;
+}
 #fp_div_t01 > a{
     display: inline;
     font-size: 1.1875em;

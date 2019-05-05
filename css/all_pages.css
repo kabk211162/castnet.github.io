@@ -14,7 +14,6 @@ footer{
     z-index: 2;
     width: 100%;
     position: absolute;
-    margin-top: 16em;
     left: 0;
     height: 29.85em;
 }
@@ -141,8 +140,8 @@ a{
     vertical-align: top;
     z-index: 4;
     position: fixed;
-    left: 82%;
-    top: 15%;
+    margin-left: 41.5em;
+    margin-top: 5.25em;
 }
 #fp_i_t01:hover{
     z-index: -1;
@@ -150,8 +149,8 @@ a{
 #fp_span_t01{
     font-size: 1.25em;
     position: fixed;
-    left: 82%;
-    top: 15%;
+    margin-left: 66.25em;
+    margin-top: 8.5em;
     z-index: -1;
 }
 #fp_i_t01:hover+#fp_span_t01{
@@ -163,8 +162,8 @@ a{
     vertical-align: top;
     z-index: 4;
     position: fixed;
-    left: 85%;
-    top: 14.5%;
+    margin-left: 88em;
+    margin-top: 10.25em;
 }
 #fp_img_header:hover{
     z-index: -1;
@@ -172,8 +171,8 @@ a{
 #fp_span_t02{
     font-size: 1.25em;
     position: fixed;
-    left: 85%;
-    top: 15%;
+    margin-left: 70.5em;
+    margin-top: 8.5em;
     z-index: -1;
 }
 #fp_img_header:hover+#fp_span_t02{
@@ -185,8 +184,8 @@ a{
     vertical-align: top;
     z-index: 4;
     position: fixed;
-    left: 89%;
-    top:15%;
+    margin-left: 46.5em;
+    margin-top: 5.25em;
 }
 #fp_i_t03{
     display: none;
@@ -194,8 +193,8 @@ a{
 #fp_span_t03{
     font-size: 1.25em;
     position: fixed;
-    left: 89%;
-    top:15%;
+    margin-left: 74em;
+    margin-top: 8.5em;
     z-index: -1;
 }
 #fp_i_t02:hover{
@@ -232,7 +231,6 @@ header div{
     width: 3em;
     border: solid 1px #5b5751;
     z-index: 5;
-    background-color: #F5F5F5;
     position: fixed;
     left: 95%;
     top: 90%;
