@@ -57,6 +57,7 @@ footer{
 #re_history_article{
     position: relative;
     top: 40em;
+    display: inline-block;
 }
 #re_history_article > a{
     padding-left: 0.25em;
@@ -65,141 +66,104 @@ footer{
     border-left-color: #3AAB97;
     position: relative;
     font-size: 2em;
-    margin-right: 0.1em;
     font-weight: bold;
 }
 
 #re_div_t01{
-    width: 27.8em;
-    position: absolute;
-    top: 3em;
+    position: relative;
+    margin-top: 1em;
+    left:-4em;
     width: 600px;
     height:190px;
     background-color:#E7E7E7; 
 }
 
-
-  
-#re_img_article{
-    
-    width: 12em;
-    display: block;
-    position: absolute; top:30%; left:5%;
-    top: 1.5em;
+.re_img_article{
+    width: 16em;
+    display: inline-block;
+    position: relative;
+    margin-top: 2.5em;
+    margin-left: 3em;
+    height: 10.38em;
     background-color:#E7E7E7; 
-  
 }
-
+.re_p_article{
+    font-size:1.8em;
+    font-weight: lighter;
+    display: inline-block;
+    position: relative;
+    top:10%;
+    margin-left: 1em;
+}
 
 #re_div_t01 > a{
     display: inline;
     font-size: 2em;
     margin-right: 0.1em;
     font-weight: bolder;
-    
 }
-#re_div_t01 > p{
-    font-size:1.6em;
-    font-weight: lighter;
-    margin-top: 1.2em;
-    position: absolute; left:45%;
-}
+
 #re_div_t02{
-    position: absolute;
-    top: 17em;
+    position: relative;
     width: 600px;
     height:190px;
+    left:-4em;
+    margin-top: 2em;
     background-color:#E7E7E7; 
 }
-#re_div_t02 > p{
-    font-size:1.6em;
-    font-weight: lighter;
-    margin-top: 1.2em;
-    position: absolute; left:45%;
-}
+
 #re_div_t03{
-    width: 27.8em;
-    position: absolute;
-    top: 31em;
+    position: relative;
     width: 600px;
     height:190px;
+    left:-4em;
+    margin-top: 2em;
     background-color:#E7E7E7; 
 }
-#re_div_t03 > p{
-    font-size:1.6em;
-    font-weight: lighter;
-    margin-top: 1.2em;
-    position: absolute; left:45%;
-}
+
 #re_div_t04{
-    width: 27.8em;
-    position: absolute;
-    top: 45em;
+    position: relative;
     width: 600px;
     height:190px;
+    left:-4em;
+    margin-top: 2em;
     background-color:#E7E7E7; 
 }
-#re_div_t04 > p{
-    font-size:1.6em;
-    font-weight: lighter;
-    margin-top: 1.2em;
-    position: absolute; left:45%;
-}
+
 #re_div_t05{
-    width: 27.8em;
-    position: absolute;
-    top: 59em;
+    position: relative;
     width: 600px;
     height:190px;
+    left:-4em;
+    margin-top: 2em;
     background-color:#E7E7E7; 
 }
-#re_div_t05 > p{
-    font-size:1.6em;
-    font-weight: lighter;
-    margin-top: 1.2em;
-    position: absolute; left:45%;
-}
-
-
-
 
 #re_project{
-    position: relative;left:5%;
-    top: 37em;
+    position: absolute;
+    top: 40em;
+    display: inline-block;
 }
 #re_project > a{
     padding-left: 0.25em;
     border-left-style: solid;
     border-left-width: 3px;
     border-left-color: #3AAB97;
-    position: relative; left:50% ;
+    position: relative;
+    margin-left: 2em;
     font-size: 2em;
     margin-right: 0.1em;
     font-weight: bold;
 }
 
 #re_div_t10{
-    margin-left: 67.375em;
     width: 27.8em;
-    position: absolute;  left:-25%;
-    top: 3em;
+    position: relative;
+    margin-top: 1em;
     width: 600px;
     height:190px;
     background-color:#ECE2D5; 
 }
-
-
-  
-#re_img_article{
-    
-    width: 12em;
-    display: block;
-    position: absolute; top:30%; left:5%;
-    top: 1.5em;
-    background-color:#ECE2D5; 
-  
-}
-
 
 #re_div_t10 > a{
     display: inline;
@@ -208,54 +172,29 @@ footer{
     font-weight: bolder;
     
 }
-#re_div_t10 > p{
-    font-size:1.6em;
-    font-weight: lighter;
-    margin-top: 1.2em;
-    position: absolute; left:45%;
-}
+
 #re_div_t11{
-    margin-left: 67.375em;
     width: 27.8em;
-    position: absolute;  left:-25%;
-    top: 17em;
+    position: relative;
+    margin-top: 2em;
     width: 600px;
     height:190px;
     background-color:#ECE2D5; 
 }
-#re_div_t11 > p{
-    font-size:1.6em;
-    font-weight: lighter;
-    margin-top: 1.2em;
-    position: absolute; left:45%;
-}
+
 #re_div_t12{
-    margin-left: 67.375em;
     width: 27.8em;
-    position: absolute;  left:-25%;
-    top: 31em;
+    position: relative;
     width: 600px;
     height:190px;
+    margin-top: 2em;
     background-color:#ECE2D5; 
 }
-#re_div_t12 > p{
-    font-size:1.6em;
-    font-weight: lighter;
-    margin-top: 1.2em;
-    position: absolute; left:45%;
-}
+
 #re_div_t13{
-    margin-left: 67.375em;
-    width: 27.8em;
-    position: absolute;  left:-25%;
-    top: 45em;
+    position: relative;
     width: 600px;
     height:190px;
+    margin-top: 2em;
     background-color:#ECE2D5; 
-}
-#re_div_t13 > p{
-    font-size:1.6em;
-    font-weight: lighter;
-    margin-top: 1.2em;
-    position: absolute; left:45%;
 }
