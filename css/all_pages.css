@@ -140,7 +140,7 @@ a{
     vertical-align: top;
     z-index: 4;
     position: fixed;
-    margin-left: 39.5em;
+    margin-left: 40em;
     margin-top: 5.25em;
 }
 #fp_i_t01:hover{
@@ -149,7 +149,7 @@ a{
 #fp_span_t01{
     font-size: 1.25em;
     position: fixed;
-    margin-left: 63em;
+    margin-left: 63.75em;
     margin-top: 8.5em;
     z-index: -1;
 }
