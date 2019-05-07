@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 575px){
     *{
         font-size: 12px;
         /* border-style: solid;
@@ -249,7 +249,7 @@
         display: block;
         z-index: 5;
         position: fixed;
-        left: 27.5em;
+        margin-left: 23.5em;
         top: 6.5em;
     }
     .fa-bars{
