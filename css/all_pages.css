@@ -127,7 +127,7 @@ a{
     background-image: -webkit-linear-gradient(rgba(58, 171, 151) 0%, #F5F5F5 18em);
     background-image: -o-linear-gradient(rgba(58, 171, 151) 0%, #F5F5F5 18em);
     background-image: -ms-linear-gradient(rgba(58, 171, 151) 0%, #F5F5F5 18em);
-    z-index: 2;
+    z-index: 3;
 }
 #fp_logo{
     position: fixed;
