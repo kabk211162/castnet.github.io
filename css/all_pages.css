@@ -8,6 +8,7 @@ body{
     background-color: #F5F5F5;
     width: 92em;
     margin: auto;
+    overflow-x: hidden;
 }
 footer{
     background-color: #5b5751;
