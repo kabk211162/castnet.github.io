@@ -14,7 +14,7 @@ article{
     margin: auto;
 }
 #ps_div_section01{
-    width: 61em;
+    width: 62em;
     margin: auto;
 }
 #ps_div_section01 a{
@@ -34,6 +34,14 @@ article{
     font-size: 2.8125em;
     display: inline;
     font-weight:lighter; 
+}
+#ps_div_section01 a p{
+    font-size: 1em;
+    display: inline;
+    font-weight:lighter;
+    border-style: solid;
+    border-color: #3AAB97;
+    border-width: 3px;
 }
 #ps_div_t{
     background-image: url("https://castnet.nctu.edu.tw/files/images_db/903/20181222141649_1545459409_E3wzFMmW2Z.jpg");
@@ -65,6 +73,7 @@ article{
     color: rgba(255 , 255, 255, 0.8);
     margin-left: 22em;
     top: -2.5em;
+    font-size: 42px;
 }
 .abstract{
     border-style: solid;
@@ -101,6 +110,7 @@ article p{
 #ps_div_links i{
     color: black;
     margin-right: 0.5em;
+    font-size: 4em;
 }
 
 #ps_div_section02{
