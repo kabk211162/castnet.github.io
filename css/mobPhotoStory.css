@@ -73,6 +73,8 @@
         border-left-style: solid;
         border-left-color: #3AAB97;
         border-left-width: 1px;
+        padding-left: 0.5em;
+        margin-right: 0.5em;
     }
     .ps_div_d h4{
         font-size: 1.5em;
