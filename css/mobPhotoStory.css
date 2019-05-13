@@ -1,28 +1,42 @@
 @media screen and (max-width: 575px){
+    body{
+        overflow-x: hidden;
+    }
+    #ps_section01{
+        top: 0;
+        margin-top: 11em;
+    }
+    #ps_div_section01{
+        width: 26.2em;
+    }
     #ps_section01 h2{
         font-size: 1.75em;
     }
     #ps_div_section01 a, #ps_div_section01 p{
-        font-size: 1.25em;
+        font-size: 1.1em;
     }
     #ps_div_t{
-        height: 15.41em;
+        position: relative;
+        width:100%;
+        margin-top: 2em;
+        height: 20em;
     }
     #ps_div_div_t{
-        width: 20em;
+        width: 23em;
+        left: 3.5em;
+        margin-top: -1em;
+        height: 5em;
     }
     #ps_div_div_t div p{
         font-size: 1em;
         width: 20em;
         padding: 0;
-        top: -1em;
     }
     #ps_div_div_t i{
         position: relative;
         display: inline-block;
         color: rgba(255 , 255, 255, 0.8);
         margin-left: 16.25em;
-        top: -4em;
         font-size: 1.25em;
     }
     .abstract{
@@ -30,7 +44,8 @@
     }
     article{
         position: relative;
-        top: -50em;
+        margin-top: 4em;
+        width: 100%;
     }
     article p{
         font-size: 1.5em;
@@ -48,8 +63,12 @@
         font-size: 1.6em;
         padding: 0;
     }
+    #ps_div_section02{
+        margin-top: 0;
+    }
     #section02{
-        top: -48em;
+        top: 0;
+        margin-top: 2em;
     }
     .ps_div_d div{
         margin-top: 1.5em;
@@ -80,10 +99,7 @@
         font-size: 1.5em;
     }
     footer{
-        margin-top: 0;
-        top: 260em;
-    }
-    body{
-        height: 272em;
+        margin-top: 240em;
+        top: 0;
     }
 }

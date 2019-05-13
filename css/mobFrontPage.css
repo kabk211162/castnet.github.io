@@ -203,7 +203,7 @@
         display: none;
     }
     footer{
-        height: 12em;
+        height: 15em;
     }
     .fp_div_ft > img{
         width: 4.83em;
@@ -231,8 +231,8 @@
         top: 5em;
     }
     #fp_div_ft_r{
-        position: absolute;
-        left: 1.6em;
+        position: relative;
+        left: -9em;
         top: 8.5em;
     }
     #fp_div_ft_r a{
@@ -256,13 +256,13 @@
         color: #3AAB97;
     }
     #fp_div_ft01{
-        width:100%;
+        width: 30.67em;
         height: 14.85em;
     }
     #fp_div_ft_c{
         width: 5em;
     }
     #fp_div01{
-        background-color: none;
+        background-color: rgba(255,255,255,0);
     }
 }
