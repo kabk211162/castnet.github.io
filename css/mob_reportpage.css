@@ -88,7 +88,7 @@
         position: relative;
         margin: 1em;
         height: 5.35em;
-        background-color:#E7E7E7; 
+        background-color:#ECE2D5; 
     }
     .re_p_article{
         width: 9em;
@@ -104,7 +104,7 @@
         width: 25.58em;
         height: 7.57em;
         position: relative;  
-        background-color:#E7E7E7; 
+        background-color:#ECE2D5; 
     }
  
     #re_div_t02{
@@ -113,7 +113,7 @@
         width: 25.58em;
         height: 7.57em;
         position: relative; 
-        background-color:#E7E7E7; 
+        background-color:#ECE2D5; 
         margin-top: 2em;
     }
     
@@ -123,7 +123,7 @@
         left: 0;
         width: 25.58em;
         height: 7.57em;
-        background-color:#E7E7E7; 
+        background-color:#ECE2D5; 
     }
     
     #re_div_t04{
@@ -132,7 +132,7 @@
         left: 0;
         width: 25.58em;
         height: 7.57em;
-        background-color:#E7E7E7; 
+        background-color:#ECE2D5; 
     }
     
     #re_div_t05{
@@ -141,7 +141,7 @@
         left: 0;
         width: 25.58em;
         height: 7.57em;
-        background-color:#E7E7E7; 
+        background-color:#ECE2D5; 
     }
     
     
@@ -149,7 +149,7 @@
         position: relative;
         left:0em;
         top: 0em;
-        margin-top:10em;
+        margin-top:7em;
         display: block;
     }
     #re_project > a{
@@ -234,4 +234,3 @@
 
 
 
-}
