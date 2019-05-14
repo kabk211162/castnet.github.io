@@ -40,6 +40,9 @@ li{
 a{
     text-decoration: none;
 }
+a:hover{
+    text-decoration: none;
+}
 
 .fa-search, .fa-ellipsis-v{
     color: #3AAB97;
