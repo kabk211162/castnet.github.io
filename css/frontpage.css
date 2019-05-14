@@ -52,13 +52,13 @@ footer{
     top: 7.2em;
     left:48em;
 }
-.fp_div_d > h2{
+.fp_div_d h2{
     font-size: 1.875em;
 }
 .fp_div_d h2 a{
     color: #5b5751;
 }
-.fp_div_d > a{
+.fp_div_d a{
     font-size: 1.125em;
 }
 .fp_div_d h2 a:hover,.fp_div_d h2 a:visited{
