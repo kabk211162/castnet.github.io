@@ -12,8 +12,6 @@
         top: 8em;
         text-align: center;
         
-        
-    
     }
     footer{
         top: 220em;
@@ -260,7 +258,7 @@
             
             height: 30em;
             display: inline-block;
-           width: 25em;
+            width: 25em;
             
         }
     }
