@@ -12,7 +12,7 @@
   </head>
   <body>
     <div id="top"></div>
-    <div id="fp_i_t03"><i class="fas fa-bars fa-2x"></i></div>
+    <div id="fp_i_t03"><i class="fas fa-bars fa-2x" onclick="appear()"></i></div>
     <a href="#top">
         <div id="fp_div01">
             <i id="fp_i_div01" class="fas fa-chevron-up fa-3x"></i>
@@ -226,4 +226,82 @@
         <div>
     </footer>
    </body>
+
+    <script>
+        var acc = 0;
+        function appear(){
+            document.getElementsByTagName("nav")[0].style.display='block';
+            document.getElementsByTagName("nav")[0].style.marginTop='8em';
+            document.getElementsByTagName("ul")[0].style.height='20em';
+            document.getElementsByTagName("ul")[0].style.width='100%';
+            document.getElementsByTagName("ul")[0].style.overflow='auto';
+            document.getElementById("fp_i_nav").style.display='none';
+            document.getElementById("fp_i_t03").style.display="none";
+
+            var li = document.getElementsByClassName("fp_li_t");
+            for(let i = 0; i<li.length;i++){
+                li[i].style.display="inline-block";
+                li[i].style.float='left';
+                li[i].style.marginTop='0.5em';
+                li[i].style.backgroundColor="#f5f5f5";
+                li[i].style.border='none';
+                li[i].style.width='10.9em';
+            }
+            document.getElementById("fp_div_backgroundcolor").style='height:29em; background-image:linear-gradient(#3AAB97, #F5F5F5);';
+            if(acc==0){
+                var i_can = document.createElement("i");
+                i_can.style.fontSize="3em";
+                i_can.style.color="#3AAB97";
+                i_can.style.position="relative";
+                i_can.style.marginLeft="-1.2em";
+                i_can.style.top="-7.3em";
+                document.getElementsByTagName('nav')[0].appendChild(i_can);
+                i_can.className="fas fa-times";
+                i_can.setAttribute("id", "create_i");
+                i_can.setAttribute("onclick", "cancel();");
+                acc= acc+1;
+
+                var green_bar = document.createElement("div");
+                green_bar.style.height="3px";
+                green_bar.style.backgroundColor="#3AAB97";
+                green_bar.style.position="relative";
+                green_bar.style.top="-9em";
+                document.getElementsByTagName('nav')[0].appendChild(green_bar);
+
+                var container = document.createElement("div");
+                container.style.position='relative';
+                container.style.marginTop='-8em';
+                container.setAttribute("id", "contain_create")
+                document.getElementsByTagName('nav')[0].appendChild(container);
+
+                var foote = ['所有期別', '關於我們', '喀報成員', 'Facebook'];
+                for(let i = 0; i < foote.length; i++){
+                    var foot_top = document.createElement("a");
+                    foot_top.style.display="inline-block";
+                    foot_top.style.width='13.08em';
+                    foot_top.innerText=foote[i];
+                    foot_top.className='foot_top';
+                    foot_top.style.textAlign="center";
+                    foot_top.color="#3AAB97";
+                    
+                    if(i==0){
+                        foot_top.href="all_catagory.html";
+                    }else if(i==1){
+                        foot_top.href="aboutCT.html";
+                    }else if(i==2){
+                        foot_top.href="喀報成員";
+                    }else{
+                        foot_top.href="https://www.facebook.com/messages/t/castnet.castnet";
+                    }
+                    document.getElementById('contain_create').appendChild(foot_top);
+                }
+            }
+        }
+
+        function cancel(){
+            document.getElementsByTagName('nav')[0].style.display='none';
+            document.getElementById("fp_i_t03").style.display="block";
+            document.getElementById("fp_div_backgroundcolor").style='height:9.4em; background-image:linear-gradient(#3AAB97 0%, #F5F5F5 6em);';
+        }
+    </script>
 </html>
