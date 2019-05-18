@@ -4,6 +4,16 @@
         /* border-style: solid;
         border-width: 1px; */
     }
+    .fp_li_t{
+        width: 10.9em;
+        float: left;
+        margin-top: 0.5em;
+        background-color: #F5F5F5;
+        border-style: none;
+    }
+    .fp_li_t a{
+        color: #3AAB97;
+    }
     li:nth-of-type(odd){
         clear: both;
         margin-right: 0.2em;
@@ -113,8 +123,8 @@
         top: 3em;
         left: 26.2em;
         opacity: 0.3;
-        width: 3em;
-        overflow: hidden;
+        /* width: 3em; */
+        /* overflow: hidden; */
     }
     .fp_div_t{
         display: inline-block;

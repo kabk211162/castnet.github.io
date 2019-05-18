@@ -2,6 +2,26 @@
     body{
         overflow-x: hidden;
     }
+    #ps_lrbtn{
+        margin-top: 12em;
+    }
+    #ps_lrbtn i{
+        font-size: 1em;
+    }
+    #ps_lrbtn .fa-chevron-left{
+        position: relative;
+        left: 5%;
+        background-color: rgba(255,255,255,0.8);
+        border-radius: 50%;
+        padding: 7px;
+    }
+    #ps_lrbtn .fa-chevron-right{
+        position: relative;
+        left: 90%;
+        background-color: rgba(255,255,255,0.8);
+        border-radius: 50%;
+        padding: 7px;
+    }
     #ps_section01{
         top: 0;
         margin-top: 11em;
@@ -10,21 +30,21 @@
         width: 26.2em;
     }
     #ps_section01 h2{
-        font-size: 1.75em;
+        font-size: 2em;
     }
     #ps_div_section01 a, #ps_div_section01 p{
         font-size: 1.1em;
     }
     #ps_div_t{
-        position: relative;
+        position: absolute;
         width:100%;
         margin-top: 2em;
-        height: 20em;
+        height: 27em;
     }
     #ps_div_div_t{
         width: 23em;
-        left: 3.5em;
-        margin-top: -1em;
+        margin-left: -8em;
+        margin-top: -1.5em;
         height: 5em;
     }
     #ps_div_div_t div p{
@@ -38,17 +58,18 @@
         color: rgba(255 , 255, 255, 0.8);
         margin-left: 16.25em;
         font-size: 1.25em;
+        top: -3em;
     }
     .abstract{
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
     article{
         position: relative;
-        margin-top: 4em;
+        margin-top: 33em;
         width: 100%;
     }
     article p{
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
     #ps_div_links{
         margin: 0 auto;
@@ -99,7 +120,7 @@
         font-size: 1.5em;
     }
     footer{
-        margin-top: 235em;
+        margin-top: 225em;
         top: 0;
     }
 }

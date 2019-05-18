@@ -4,6 +4,12 @@
 	section{
 		margin-top: 5em;
 	}
+	@media (max-width: 575em){
+		section{
+			margin-top: 0em;
+			top: 0em;
+		}
+	}
 
 
     	/*all page end*/

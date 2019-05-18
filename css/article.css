@@ -17,8 +17,13 @@ footer{
 		    border-left-width: 2px;
 		    border-left-color: #3AAB97;
 		    padding: 0 0.75em;
-    	}
-
+		}
+		.viewUser{
+			color: #5b5751;
+		}
+		.viewUser:hover, .viewUser:visited{
+			color: #5b5751;
+		}
     	.imgbox{
     		margin-top: 1em;
     		text-align: center;
@@ -264,7 +269,7 @@ footer{
 		}
 		@media (min-width: 540px){
 			article {
-			    width: 75%;
+			    width: 88%;
 			}
 		}
 

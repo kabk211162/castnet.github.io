@@ -574,7 +574,7 @@
         }
         @media (min-width: 540px){
             article {
-                width: 75%;
+                width: 88%;
             }
         }
 
@@ -587,7 +587,7 @@
             margin-top: 1em;
             align-content: center;
             font-weight: lighter;
-            font-size: 1.7em;
+            font-size: 1.2em;
         }
 
         .picture-box p{
@@ -597,10 +597,15 @@
             text-align: center;
         }
 
+        @media (max-width: 575px){
+            article p{
+                font-size: 1.7em;
+            }
+        }
         article img{
             width: 20em;    
         }
-        @media (min-width: 540px){
+        @media (max-width: 540px){
             article img{
             width: 30em;    
             /*width: 100%;*/

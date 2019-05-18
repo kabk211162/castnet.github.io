@@ -5,20 +5,42 @@ article{
     display: block;
     margin-top: 20em;
 }
+#ps_lrbtn{
+    z-index:3;
+    margin-top: 30em;
+}
+#ps_lrbtn i{
+    font-size: 3em;
+}
+#ps_lrbtn .fa-chevron-left{
+    position: relative;
+    left: 5%;
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 50%;
+    padding: 7px;
+}
+#ps_lrbtn .fa-chevron-right{
+    position: relative;
+    left: 90%;
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 50%;
+    padding: 7px;
+}
 #ps_section01{
     width: 100%;
+    margin-bottom: 1.5em;
 }
 #ps_section01 h2{
     width: 15em;
-    font-size: 4.0625em;
+    font-size: 3em;
     margin: auto;
 }
 #ps_div_section01{
-    width: 62em;
+    width: 45em;
     margin: auto;
 }
 #ps_div_section01 a{
-    font-size: 2.8125em;
+    font-size: 2em;
     font-weight:lighter; 
 }
 #ps_section_div_a2{
@@ -31,7 +53,7 @@ article{
     margin: 0 0.5em;
 }
 #ps_div_section01 p{
-    font-size: 2.8125em;
+    font-size: 2em;
     display: inline;
     font-weight:lighter; 
 }
@@ -56,23 +78,23 @@ article{
 #ps_div_div_t{
     position: relative;
     width: 71em;
-    left: 30%;
-    top: 75%;
+    left: 48%;
+    top: 35%;
 }
 #ps_div_div_t div p{
     position: relative;
     display: inline-block;
     width: 29em;
     padding: 1em;
-    font-size: 2.1875em;
+    font-size: 1.5em;
     background-color: rgba(255 , 255, 255, 0.6);
 }
 #ps_div_div_t i{
     position: relative;
     display: inline-block;
     color: rgba(255 , 255, 255, 0.8);
-    margin-left: 18.5em;
-    top: -2.2em;
+    margin-left: 12.8em;
+    top: -1.8em;
     font-size: 42px;
 }
 .abstract{
@@ -80,7 +102,7 @@ article{
     border-width: 1px;
     border-color: #3AAB97;
     padding: 1em;
-    font-size: 2.5em;
+    font-size: 1.7em;
     margin: 2em auto;
     font-weight:lighter; 
 }
@@ -91,7 +113,7 @@ article{
     margin-top: 88em;
 }
 article p{
-    font-size: 2.5em;
+    font-size: 1.7em;
     margin-top: 1em;
     font-weight:lighter; 
 }
@@ -166,5 +188,5 @@ article p{
 }
 
 footer{
-    margin-top: 25em;
+    margin-top: 27em;
 }
